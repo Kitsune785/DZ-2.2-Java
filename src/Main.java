@@ -6,10 +6,9 @@ public class Main {
         int bonus = 100;
         int payment = 1100;
 
-        if (payment >=1000) {
+        if (payment >= 1000) {
             totalBonus = payment / bonus;
-        }
-        else {
+        } else {
             totalBonus = 0;
         }
 
