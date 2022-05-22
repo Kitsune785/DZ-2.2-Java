@@ -1,23 +1,23 @@
 public class main {
     public static void main(String[] args) {
 
-        int totalbonus;
-        int customeraccount = 100;
+        int totalBonus;
+        int customerAccount = 100;
         int bonus = 100;
         int payment = 1100;
 
         if (payment >=1000) {
-            totalbonus = payment / bonus;
+            totalBonus = payment / bonus;
         }
         else {
-            totalbonus = 0;
+            totalBonus = 0;
         }
 
-        int totalcustomeraccount = customeraccount + payment + totalbonus;
+        int totalCustomerAccount = customerAccount + payment + totalBonus;
 
         System.out.println("Ваш счет пополнен на " + payment + " руб.");
-        System.out.println("Ваш бонус равен " + totalbonus + " руб.");
-        System.out.println("Ваш баланс равен " + totalcustomeraccount + " руб.");
+        System.out.println("Ваш бонус равен " + totalBonus + " руб.");
+        System.out.println("Ваш баланс равен " + totalCustomerAccount + " руб.");
     }
 }
 
